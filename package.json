@@ -1,24 +1,24 @@
 {
-  "name": "eslint-bug",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "lint": "eslint --fix src/App.vue",
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.2.33"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
-    "@vitejs/plugin-vue": "^2.3.2",
-    "eslint": "^8.14.0",
-    "eslint-plugin-vue": "^8.7.1",
-    "typescript": "^4.6.4",
-    "vite": "^2.9.8",
-    "vue-tsc": "^0.34.11"
-  }
+	"name": "eslint-bug",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"lint": "eslint --fix src/App.vue",
+		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.2.33"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.22.0",
+		"@typescript-eslint/parser": "^5.22.0",
+		"@vitejs/plugin-vue": "^2.3.2",
+		"eslint": "^8.14.0",
+		"eslint-plugin-vue": "^8.7.1",
+		"typescript": "^4.6.4",
+		"vite": "^2.9.8",
+		"vue-tsc": "^0.34.11"
+	}
 }
